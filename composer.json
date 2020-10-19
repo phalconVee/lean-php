@@ -1,0 +1,29 @@
+{
+    "name": "rockhafella/oop",
+    "description": "oop starter-kit",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Henry Ugochukwu",
+            "email": "phalconvee@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "bramus/router": "~1.4",
+        "lukasoppermann/http-status": "^1.0@dev",
+        "catfan/medoo": "dev-master",
+        "vlucas/phpdotenv": "^5.1@dev",
+        "guzzlehttp/guzzle": "^6.5",
+      "ext-http": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/"
+        },
+        "files": [
+            "app/Helper/siteconfig.php"
+        ]
+    }
+}
